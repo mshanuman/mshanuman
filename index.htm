@@ -1953,6 +1953,11 @@
 											href="mailto:absolute0gravity@gmail.com" rel="nofollow"
 											target="_blank">Lord's Creations</a></p>
 								</div>
+								<div class="col-2">
+									<div class="dib vab"><img
+											src="https://www.webfreecounter.com/hit.php?id=gopxfk&nd=6&style=120"
+											border="0" alt="Visit Counter"></div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -1960,7 +1965,6 @@
 			</div>
 		</footer>
 	</div>
-	<p class="footerPopupToolTip"></p>
 	<script>function getCookieByName(cname) { var name = cname + "="; var decodedCookie = decodeURIComponent(document.cookie); var ca = decodedCookie.split(";"); for (var i = 0; i < ca.length; i++) { var c = ca[i]; while (c.charAt(0) == " ") { c = c.substring(1); } if (c.indexOf(name) == 0) { return c.substring(name.length, c.length); } } return ""; } (function ($) { $(document).ready(function () { $("#footerPopup.footerPopup").addClass('footerPopupOn'); $("#footerPopup .footerPopupHeading").text('Submit Your Requirement'); $('body').addClass("click-on-min-btn"); var str = $("h1").text(); var newHtml = ''; $('.footerPopupStyle .footerPopup-close').hover(function () { $('.footerPopupToolTip').show(); }, function () { $('.footerPopupToolTip').hide(); }); $('#footerPopup .footerPopup-close').on('click', function (e) { document.cookie = "ispopup=false;expire=86400"; $('body').toggleClass("click-on-min-btn"); $('#footerPopup').toggleClass("main-on"); $('#footerPopup').removeClass("trasit-on"); if ($('#footerPopup ').hasClass("main-on")) { head_Name(); } else { $(".footerPopup .footerPopupHeading").html('Submit Your Requirement'); } e.preventDefault(); }); function show_popup() { $("#footerPopup.footerPopup").addClass('footerPopupOn'); } function head_Name() { $(".footerPopup .footerPopupHeading").css('font-size', function () { var $numWords = $('h1').text().length; if (($numWords > 50)) { return "22px"; } }); if ($('a').hasClass('open_pop_zoom')) { if ($("h1").length !== 0) { $(".footerPopup .footerPopupHeading").html('Looking for <b>' + str + '</b>?'); } else { $(".footerPopup .footerPopupHeading").html('Tell us what you are <b> looking </b> for?'); } } else { $(".footerPopup .footerPopupHeading").html('Tell us what you are <b> looking </b> for?'); } } }); $(function () { if (jQuery("form[name=products_form] input[name^=chk_]").length) { jQuery("form[name=footer_form] textarea[name=dynFrm_details_2]").text("I am interested. Kindly send the quotation for the same."); } }); $(document).on("submit", "form[name=footer_form]", function (e) { e.preventDefault(); var isFormValid = static_inq_form_validate(10018); $form = $(this); var formData = $form.serialize(); if (typeof isFormValid == "undefined" && isFormValid !== true) { $.ajax({ url: $form.attr("action"), type: "post", data: formData, crossOrigin: true, success: function () { $("#footerprd_alert_display_alert").hide(); $("#success_footer_msg").show(); setTimeout(function () { jQuery("#footerPopup.footerPopup").removeClass("footerPopupOn"); $("#footerPopup").hide(); document.cookie = "ispopup=false;expire=86400"; }, 3000); } }); } }); })(jQuery);</script>
 </body>
 
